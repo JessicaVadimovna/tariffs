@@ -1,7 +1,27 @@
+.App {
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+.tariff {
+  border: 1px solid #1a1a1a;
+  padding: 20px;
+  border-radius: 8px;
+  transition: transform 0.3s, box-shadow 0.3s;
+  cursor: pointer;
+  width: 150px;
+}
+
+.tariff.selected {
+  transform: scale(1.05);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  border-color: #4caf50;
+}
+
 .tariffs {
   display: flex;
-  justify-content: space-around;
-  margin: 20px;
+  justify-content: center;
+  gap: 10px;
 }
 
 .tariff {
@@ -53,6 +73,11 @@
   transform: scale(1.1);
   border-color: #eb0404; /* Цвет рамки для выделенного тарифа */
 }
+
+
+
+
+
 
 
 
