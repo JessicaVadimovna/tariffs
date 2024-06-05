@@ -4,34 +4,29 @@
 }
 
 .tariff {
-  border: 1px solid #1a1a1a;
-  padding: 20px;
+  margin-top: 25px;
   border-radius: 8px;
   transition: transform 0.3s, box-shadow 0.3s;
   cursor: pointer;
-  width: 150px;
+  border-radius: 5px;
+  padding: 5px;
+  text-align: center;
+  width: 200px;
+  height: 250px;
+  color: white;
+  border: 2px solid transparent;
 }
 
 .tariff.selected {
   transform: scale(1.05);
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-  border-color: #4caf50;
+  border-color: #888888;
 }
 
 .tariffs {
   display: flex;
   justify-content: center;
   gap: 10px;
-}
-
-.tariff {
-  border-radius: 5px;
-  padding: 5px;
-  text-align: center;
-  width: 200px;
-  transition: transform 0.3s ease;
-  color: white;
-  border: 2px solid transparent; /* Добавляем рамку */
 }
 
 .tariff-price {
